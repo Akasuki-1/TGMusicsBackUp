@@ -2,11 +2,11 @@
   "name": "CallsMusic",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/suprojects/CallsMusicHeroku",
+  "repository": "https://github.com/shamilhabeebnelli/TGMusicsBot",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram session string",
+      "description": "Pyrogram session string use @stringsessionerbot",
       "required": true
     },
     "BOT_TOKEN": {
@@ -14,11 +14,11 @@
       "required": true
     },
     "API_ID": {
-      "description": "App ID from my.telegram.org/apps",
+      "description": "App ID from my.telegram.org/apps use @TGramORGBot",
       "required": true
     },
     "API_HASH": {
-      "description": "App hash from my.telegram.org/apps",
+      "description": "App hash from my.telegram.org/apps use @TGramORGbot",
       "required": true
     },
     "SUDO_USERS": {
